@@ -1,7 +1,7 @@
 # Portfólio de Engenharia de Software
 
 **Dev:** Ana Carolina Ferreira  
-**Disciplina:** Engenharia de Software - Sistemas para Internet  
+**Disciplina:** Engenharia de Software - Sistemas para Internet  (3º Semestre)
 
 Bem-vindo ao meu repositório! Aqui você encontrará todas as minhas entregas, exercícios e documentações desenvolvidas durante a disciplina.
 
