@@ -1,5 +1,6 @@
 Proposta desenvolvida por: Ana Carolina e Ana Clara
-Sistemas para Internet - Engenharia de Software (3º semestre)
+Sistemas para Internet - Engenharia de Software (3º semestre) 
+---
 
 **Problema:** o algoritmo tende a favorecer candidatos com perfis demográficos específicos, 
 replicando e até ampliando vieses históricos de preconceitos presentes nos dados de treinamento.
@@ -9,6 +10,7 @@ bem estar da sociedade, negligenciando a ética, uma vez que há ciência prévi
 de oportunidades).
 
 **Qual seria o impacto financeiro de um processo judicial comparado ao atraso de 4 semanas para auditoria?**
+
 Atraso de 4 semanas: custos adicionais de desenvolvimento e possível perda momentânea de mercado.
 Processo judicial: multas baseadas na Lei Geral de Proteção de Dados (LGPD), processos coletivos, danos à imagem da empresa e perda de investidores.
 
