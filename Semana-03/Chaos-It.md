@@ -9,114 +9,108 @@ Em cada volta da espiral, antes de qualquer compromisso de desenvolvimento, a eq
 ---
 
 ### Ciclo da Espiral (Projeto de IA Subaquática)
+![espiral_ia_subaquatica](https://github.com/user-attachments/assets/94570b36-c03b-4832-b72a-d63f131f7d0f)
+![Uploading <svg width="100%" viewBox="0 0 680 640" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+    <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </marker>
+<mask id="imagine-text-gaps-d11z38" maskUnits="userSpaceOnUse"><rect x="0" y="0" width="680" height="640" fill="white"/><rect x="158.84657287597656" y="70.56291198730469" width="122.43401336669922" height="23.29636001586914" fill="black" rx="2"/><rect x="387.00341796875" y="70.56291198730469" width="146.13113403320312" height="23.29636001586914" fill="black" rx="2"/><rect x="386.1954040527344" y="534.5629272460938" width="147.7361297607422" height="23.29636001586914" fill="black" rx="2"/><rect x="171.08168029785156" y="534.5629272460938" width="97.96550750732422" height="23.29636001586914" fill="black" rx="2"/><rect x="139.9260711669922" y="114.56291198730469" width="144.2794647216797" height="23.29636001586914" fill="black" rx="2"/><rect x="118" y="137.8784637451172" width="170.93365478515625" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="153.8784637451172" width="153.56155395507812" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="169.87847900390625" width="173.39393615722656" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="185.87847900390625" width="153.21383666992188" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="201.87847900390625" width="162.8260040283203" height="20.208942413330078" fill="black" rx="2"/><rect x="393.58636474609375" y="114.56291198730469" width="148.96678161621094" height="23.29636001586914" fill="black" rx="2"/><rect x="373.9999694824219" y="137.8784637451172" width="166.04013061523438" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="153.8784637451172" width="130.72765350341797" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="169.87847900390625" width="183.7216033935547" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="185.87847900390625" width="191.0555419921875" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="201.87847900390625" width="177.94937133789062" height="20.208942413330078" fill="black" rx="2"/><rect x="390.4326171875" y="382.5628967285156" width="155.13475036621094" height="23.29636001586914" fill="black" rx="2"/><rect x="373.9999694824219" y="405.8784484863281" width="169.7955322265625" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="421.87847900390625" width="172.119384765625" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="437.87847900390625" width="186.72044372558594" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="453.87847900390625" width="131.89532470703125" height="20.208942413330078" fill="black" rx="2"/><rect x="373.9999694824219" y="469.8784484863281" width="176.6019744873047" height="20.208942413330078" fill="black" rx="2"/><rect x="143.97227478027344" y="382.5628967285156" width="135.5599365234375" height="23.29636001586914" fill="black" rx="2"/><rect x="118" y="405.8784484863281" width="174.6723175048828" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="421.87847900390625" width="142.7222900390625" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="437.87847900390625" width="152.73477172851562" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="453.87847900390625" width="182.86192321777344" height="20.208942413330078" fill="black" rx="2"/><rect x="118" y="469.8784484863281" width="172.6875457763672" height="20.208942413330078" fill="black" rx="2"/><rect x="535.42724609375" y="152.8784637451172" width="44.37363815307617" height="20.208942413330078" fill="black" rx="2"/><rect x="541.0171508789062" y="166.8784637451172" width="33.96566390991211" height="20.208942413330078" fill="black" rx="2"/></mask></defs>
 
-![espiral_boehm](https://github.com/user-attachments/assets/4888ddbd-dc37-434c-b66f-71ac69ac245d)
+<!-- Quadrant backgrounds -->
+<!-- Q1: top-left — Planning (purple) -->
+<path d="M340 320 L100 320 L100 60 L340 60 Z" fill="#EEEDFE" stroke="none" style="fill:rgb(238, 237, 254);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Q2: top-right — Risk Analysis (coral) -->
+<path d="M340 320 L340 60 L580 60 L580 320 Z" fill="#FAECE7" stroke="none" style="fill:rgb(250, 236, 231);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Q3: bottom-right — Engineering (teal) -->
+<path d="M340 320 L580 320 L580 580 L340 580 Z" fill="#E1F5EE" stroke="none" style="fill:rgb(225, 245, 238);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<!-- Q4: bottom-left — Evaluation (amber) -->
+<path d="M340 320 L340 580 L100 580 L100 320 Z" fill="#FAEEDA" stroke="none" style="fill:rgb(250, 238, 218);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-![Uploading espiral_bo<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff;font-family:Arial,Helvetica,sans-serif">
+<!-- Quadrant dividers -->
+<line x1="100" y1="320" x2="580" y2="320" stroke="var(--color-border-secondary)" stroke-width="0.8" style="fill:rgb(0, 0, 0);stroke:rgba(222, 220, 209, 0.3);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<line x1="340" y1="60" x2="340" y2="580" stroke="var(--color-border-secondary)" stroke-width="0.8" style="fill:rgb(0, 0, 0);stroke:rgba(222, 220, 209, 0.3);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Quadrant backgrounds -->
-  <rect x="0"   y="0"   width="400" height="400" fill="#EEEDFE"/>
-  <rect x="400" y="0"   width="400" height="400" fill="#FAECE7"/>
-  <rect x="400" y="400" width="400" height="400" fill="#E1F5EE"/>
-  <rect x="0"   y="400" width="400" height="400" fill="#FAEEDA"/>
+<!-- Quadrant Labels -->
+<text x="220" y="88" text-anchor="middle" fill="#3C3489" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Q1 · Planejamento</text>
+<text x="460" y="88" text-anchor="middle" fill="#993C1D" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Q2 · Análise de Riscos</text>
+<text x="460" y="552" text-anchor="middle" fill="#0F6E56" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Q3 · Desenvolvimento</text>
+<text x="220" y="552" text-anchor="middle" fill="#854F0B" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Q4 · Avaliação</text>
 
-  <!-- Quadrant dividers -->
-  <line x1="0" y1="400" x2="800" y2="400" stroke="#b0aec8" stroke-width="1"/>
-  <line x1="400" y1="0" x2="400" y2="800" stroke="#b0aec8" stroke-width="1"/>
+<!-- Spiral arcs — 3 progressively larger quarter-arcs -->
+<!-- Volta 1 (small, innermost) -->
+<path d="M340 290 A30 30 0 0 0 310 320" fill="none" stroke="#534AB7" stroke-width="2" opacity="0.5" style="fill:none;stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M310 320 A30 30 0 0 0 340 350" fill="none" stroke="#993C1D" stroke-width="2" opacity="0.5" style="fill:none;stroke:rgb(153, 60, 29);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M340 350 A30 30 0 0 0 370 320" fill="none" stroke="#0F6E56" stroke-width="2" opacity="0.5" style="fill:none;stroke:rgb(15, 110, 86);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M370 320 A30 30 0 0 0 340 290" fill="none" stroke="#854F0B" stroke-width="2" opacity="0.5" style="fill:none;stroke:rgb(133, 79, 11);color:rgb(255, 255, 255);stroke-width:2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.5;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Quadrant labels -->
-  <text x="200" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#3C3489">Q1 · Planejamento</text>
-  <text x="600" y="46" text-anchor="middle" font-size="15" font-weight="700" fill="#993C1D">Q2 · Análise de Riscos</text>
-  <text x="600" y="780" text-anchor="middle" font-size="15" font-weight="700" fill="#0F6E56">Q3 · Desenvolvimento</text>
-  <text x="200" y="780" text-anchor="middle" font-size="15" font-weight="700" fill="#854F0B">Q4 · Avaliação</text>
+<!-- Volta 2 (medium) -->
+<path d="M340 240 A80 80 0 0 0 260 320" fill="none" stroke="#534AB7" stroke-width="2.2" opacity="0.7" style="fill:none;stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:2.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M260 320 A80 80 0 0 0 340 400" fill="none" stroke="#993C1D" stroke-width="2.2" opacity="0.7" style="fill:none;stroke:rgb(153, 60, 29);color:rgb(255, 255, 255);stroke-width:2.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M340 400 A80 80 0 0 0 420 320" fill="none" stroke="#0F6E56" stroke-width="2.2" opacity="0.7" style="fill:none;stroke:rgb(15, 110, 86);color:rgb(255, 255, 255);stroke-width:2.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M420 320 A80 80 0 0 0 340 240" fill="none" stroke="#854F0B" stroke-width="2.2" opacity="0.7" style="fill:none;stroke:rgb(133, 79, 11);color:rgb(255, 255, 255);stroke-width:2.2px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- ========== SPIRAL ARCS ========== -->
-  <!-- Each arc is a quarter-circle, alternating quadrant colors, growing outward -->
+<!-- Volta 3 (large, outermost, current cycle) -->
+<path d="M340 160 A160 160 0 0 0 180 320" fill="none" stroke="#534AB7" stroke-width="3" opacity="0.9" mask="url(#imagine-text-gaps-d11z38)" style="fill:none;stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M180 320 A160 160 0 0 0 340 480" fill="none" stroke="#993C1D" stroke-width="3" opacity="0.9" mask="url(#imagine-text-gaps-d11z38)" style="fill:none;stroke:rgb(153, 60, 29);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M340 480 A160 160 0 0 0 500 320" fill="none" stroke="#0F6E56" stroke-width="3" opacity="0.9" mask="url(#imagine-text-gaps-d11z38)" style="fill:none;stroke:rgb(15, 110, 86);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<path d="M500 320 A160 160 0 0 0 340 160" fill="none" stroke="#854F0B" stroke-width="3" opacity="0.9" mask="url(#imagine-text-gaps-d11z38)" style="fill:none;stroke:rgb(133, 79, 11);color:rgb(255, 255, 255);stroke-width:3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.9;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Volta 1 (r=35) -->
-  <path d="M400 365 A35 35 0 0 0 365 400" fill="none" stroke="#534AB7" stroke-width="2.5" opacity="0.45"/>
-  <path d="M365 400 A35 35 0 0 0 400 435" fill="none" stroke="#993C1D" stroke-width="2.5" opacity="0.45"/>
-  <path d="M400 435 A35 35 0 0 0 435 400" fill="none" stroke="#0F6E56" stroke-width="2.5" opacity="0.45"/>
-  <path d="M435 400 A35 35 0 0 0 400 365" fill="none" stroke="#854F0B" stroke-width="2.5" opacity="0.45"/>
+<!-- Center dot -->
+<circle cx="340" cy="320" r="5" fill="#534AB7" opacity="0.7" style="fill:rgb(83, 74, 183);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.7;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
 
-  <!-- Volta 2 (r=90) -->
-  <path d="M400 310 A90 90 0 0 0 310 400" fill="none" stroke="#534AB7" stroke-width="2.5" opacity="0.65"/>
-  <path d="M310 400 A90 90 0 0 0 400 490" fill="none" stroke="#993C1D" stroke-width="2.5" opacity="0.65"/>
-  <path d="M400 490 A90 90 0 0 0 490 400" fill="none" stroke="#0F6E56" stroke-width="2.5" opacity="0.65"/>
-  <path d="M490 400 A90 90 0 0 0 400 310" fill="none" stroke="#854F0B" stroke-width="2.5" opacity="0.65"/>
+<!-- === VOLTA 3 DETAIL CARDS === -->
 
-  <!-- Volta 3 (r=170) — destaque -->
-  <path d="M400 230 A170 170 0 0 0 230 400" fill="none" stroke="#534AB7" stroke-width="3.5"/>
-  <path d="M230 400 A170 170 0 0 0 400 570" fill="none" stroke="#993C1D" stroke-width="3.5"/>
-  <path d="M400 570 A170 170 0 0 0 570 400" fill="none" stroke="#0F6E56" stroke-width="3.5"/>
-  <path d="M570 400 A170 170 0 0 0 400 230" fill="none" stroke="#854F0B" stroke-width="3.5"/>
+<!-- Q1 Card: Planning -->
+<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <rect x="112" y="110" width="200" height="130" rx="8" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.8" style="fill:rgb(238, 237, 254);stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="212" y="132" text-anchor="middle" fill="#3C3489" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Objetivos e restrições</text>
+  <text x="122" y="153" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Definir escopo: profundidade,</text>
+  <text x="122" y="169" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  autonomia e precisão da IA</text>
+  <text x="122" y="185" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Restrições: custo de hardware,</text>
+  <text x="122" y="201" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  regulação ANATEL/Marinha</text>
+  <text x="122" y="217" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Plano de iteração e recursos</text>
+</g>
 
-  <!-- Center dot -->
-  <circle cx="400" cy="400" r="6" fill="#534AB7" opacity="0.8"/>
+<!-- Q2 Card: Risk Analysis -->
+<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <rect x="368" y="110" width="200" height="130" rx="8" fill="#FAECE7" stroke="#993C1D" stroke-width="0.8" style="fill:rgb(250, 236, 231);stroke:rgb(153, 60, 29);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="468" y="132" text-anchor="middle" fill="#993C1D" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Identificação de riscos</text>
+  <text x="378" y="153" fill="#993C1D" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Falha do modelo IA em água</text>
+  <text x="378" y="169" fill="#993C1D" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  turva (visibilidade zero)</text>
+  <text x="378" y="185" fill="#993C1D" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Latência de comunicação sônica</text>
+  <text x="378" y="201" fill="#993C1D" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Pressão hidrostática nos sensores</text>
+  <text x="378" y="217" fill="#993C1D" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Protótipo em tanque p/ validar</text>
+</g>
 
-  <!-- ========== DETAIL CARDS ========== -->
+<!-- Q3 Card: Engineering -->
+<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <rect x="368" y="378" width="200" height="130" rx="8" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.8" style="fill:rgb(225, 245, 238);stroke:rgb(15, 110, 86);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="468" y="400" text-anchor="middle" fill="#0F6E56" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Implementação técnica</text>
+  <text x="378" y="421" fill="#0F6E56" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Treinar modelo IA com dados</text>
+  <text x="378" y="437" fill="#0F6E56" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  de sonar e câmera subaquática</text>
+  <text x="378" y="453" fill="#0F6E56" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Desenvolver módulo de controle</text>
+  <text x="378" y="469" fill="#0F6E56" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  e navegação autônoma</text>
+  <text x="378" y="485" fill="#0F6E56" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Integração com hardware ROV</text>
+</g>
 
-  <!-- Q1 card: Planejamento (top-left) -->
-  <rect x="48" y="68" width="310" height="148" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="1.2"/>
-  <text x="203" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="#3C3489">Objetivos e restrições</text>
-  <text x="64"  y="116" font-size="11.5" fill="#534AB7">· Escopo: profundidade, autonomia e precisão da IA</text>
-  <text x="64"  y="134" font-size="11.5" fill="#534AB7">· Restrições: custo de hardware, regulações</text>
-  <text x="64"  y="152" font-size="11.5" fill="#534AB7">  ANATEL / Marinha do Brasil</text>
-  <text x="64"  y="170" font-size="11.5" fill="#534AB7">· Plano de iteração e alocação de recursos</text>
-  <text x="64"  y="188" font-size="11.5" fill="#534AB7">· Critérios de entrada para Q2</text>
+<!-- Q4 Card: Evaluation -->
+<g style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+  <rect x="112" y="378" width="200" height="130" rx="8" fill="#FAEEDA" stroke="#854F0B" stroke-width="0.8" style="fill:rgb(250, 238, 218);stroke:rgb(133, 79, 11);color:rgb(255, 255, 255);stroke-width:0.8px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <text x="212" y="400" text-anchor="middle" fill="#854F0B" style="fill:rgb(250, 249, 245);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:14px;font-weight:500;text-anchor:middle;dominant-baseline:auto">Avaliação do cliente</text>
+  <text x="122" y="421" fill="#854F0B" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Teste em ambiente controlado</text>
+  <text x="122" y="437" fill="#854F0B" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  (piscina, depois mar raso)</text>
+  <text x="122" y="453" fill="#854F0B" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Revisão com stakeholders:</text>
+  <text x="122" y="469" fill="#854F0B" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">  operadores e engenheiros navais</text>
+  <text x="122" y="485" fill="#854F0B" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:start;dominant-baseline:auto">· Aprovação para próxima volta</text>
+</g>
 
-  <!-- Q2 card: Análise de Riscos (top-right) -->
-  <rect x="442" y="68" width="310" height="148" rx="10" fill="#FAECE7" stroke="#993C1D" stroke-width="1.2"/>
-  <text x="597" y="94" text-anchor="middle" font-size="13" font-weight="700" fill="#993C1D">Identificação de riscos</text>
-  <text x="458" y="116" font-size="11.5" fill="#993C1D">· Falha do modelo IA em água turva</text>
-  <text x="458" y="134" font-size="11.5" fill="#993C1D">· Latência de comunicação sônica (&gt;200 ms)</text>
-  <text x="458" y="152" font-size="11.5" fill="#993C1D">· Falha de sensores por pressão hidrostática</text>
-  <text x="458" y="170" font-size="11.5" fill="#993C1D">· Deriva de posicionamento sem GPS</text>
-  <text x="458" y="188" font-size="11.5" fill="#993C1D">· Protótipo em tanque para validação</text>
+<!-- Direction arrow (spiral progression hint) -->
+<path d="M505 175 Q555 145 560 200" fill="none" stroke="#534AB7" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#arrow)" opacity="0.6" mask="url(#imagine-text-gaps-d11z38)" style="fill:none;stroke:rgb(83, 74, 183);color:rgb(255, 255, 255);stroke-width:1.5px;stroke-dasharray:4px, 3px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.6;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+<text x="558" y="168" text-anchor="middle" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">volta 3</text>
+<text x="558" y="182" text-anchor="middle" fill="#534AB7" style="fill:rgb(194, 192, 182);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:12px;font-weight:400;text-anchor:middle;dominant-baseline:auto">atual</text>
 
-  <!-- Q3 card: Desenvolvimento (bottom-right) -->
-  <rect x="442" y="584" width="310" height="148" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1.2"/>
-  <text x="597" y="610" text-anchor="middle" font-size="13" font-weight="700" fill="#0F6E56">Implementação técnica</text>
-  <text x="458" y="632" font-size="11.5" fill="#0F6E56">· Fine-tuning de modelo de visão computacional</text>
-  <text x="458" y="650" font-size="11.5" fill="#0F6E56">· Módulo de navegação autônoma com sonar</text>
-  <text x="458" y="668" font-size="11.5" fill="#0F6E56">· DVL para odometria subaquática (fallback)</text>
-  <text x="458" y="686" font-size="11.5" fill="#0F6E56">· Deploy embarcado (NVIDIA Jetson Orin)</text>
-  <text x="458" y="704" font-size="11.5" fill="#0F6E56">· Suite de testes automatizados ≥ 85%</text>
-
-  <!-- Q4 card: Avaliação (bottom-left) -->
-  <rect x="48" y="584" width="310" height="148" rx="10" fill="#FAEEDA" stroke="#854F0B" stroke-width="1.2"/>
-  <text x="203" y="610" text-anchor="middle" font-size="13" font-weight="700" fill="#854F0B">Avaliação do cliente</text>
-  <text x="64"  y="632" font-size="11.5" fill="#854F0B">· Testes: piscina (sem. 9–10) → baía (sem. 11–12)</text>
-  <text x="64"  y="650" font-size="11.5" fill="#854F0B">· Critério: detecção ≥ 92%, latência ≤ 180 ms</text>
-  <text x="64"  y="668" font-size="11.5" fill="#854F0B">· Revisão com engenheiros navais e Marinha</text>
-  <text x="64"  y="686" font-size="11.5" fill="#854F0B">· Aprovação da diretoria para próxima volta</text>
-  <text x="64"  y="704" font-size="11.5" fill="#854F0B">· Decisão: avançar / replaneja / reitera</text>
-
-  <!-- ========== DIRECTION INDICATOR ========== -->
-  <!-- Arrow showing spiral direction (anti-clockwise), near volta 3 arc top -->
-  <path d="M460 218 Q490 192 510 218" fill="none" stroke="#534AB7" stroke-width="2" marker-end="url(#arrowhead)"/>
-  <text x="536" y="214" font-size="11" fill="#534AB7" font-weight="600">volta 3</text>
-  <text x="536" y="228" font-size="11" fill="#534AB7">(atual)</text>
-
-  <!-- Small rotation labels near center for volta 1 and 2 -->
-  <text x="310" y="358" font-size="10" fill="#888" text-anchor="middle">volta 1</text>
-  <text x="285" y="326" font-size="10" fill="#888" text-anchor="middle">volta 2</text>
-
-  <!-- Arrowhead marker -->
-  <defs>
-    <marker id="arrowhead" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M2 1L8 5L2 9" fill="none" stroke="#534AB7" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    </marker>
-  </defs>
-
-  <!-- ========== LEGEND STRIP (center) ========== -->
-  <rect x="302" y="378" width="196" height="44" rx="8" fill="white" fill-opacity="0.85" stroke="#b0aec8" stroke-width="0.8"/>
-  <text x="400" y="396" text-anchor="middle" font-size="10.5" fill="#444" font-weight="600">Sentido: anti-horário</text>
-  <text x="400" y="413" text-anchor="middle" font-size="10" fill="#666">Q1 → Q2 → Q3 → Q4 → próxima volta</text>
-
-</svg>
-ehm.svg…]()
-
+</svg>espiral_ia_subaquatica.svg…]()
 
 ---
 
