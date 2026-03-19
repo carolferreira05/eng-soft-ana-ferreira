@@ -1,4 +1,4 @@
-![espiral_boehm](https://github.com/user-attachments/assets/4888ddbd-dc37-434c-b66f-71ac69ac245d)# O Labirinto de Boehm
+# O Labirinto de Boehm
 
 O Modelo Espiral de Boehm se diferencia de modelos como Cascata por colocar a análise de riscos como atividade central de cada ciclo, não como uma checagem pontual no início do projeto. Neste caso, o colapso foi causado por riscos técnicos ignorados (cenário que o modelo espiral evita).
 
@@ -9,6 +9,8 @@ Em cada volta da espiral, antes de qualquer compromisso de desenvolvimento, a eq
 ---
 
 ### Ciclo da Espiral (Projeto de IA Subaquática)
+
+![espiral_boehm](https://github.com/user-attachments/assets/4888ddbd-dc37-434c-b66f-71ac69ac245d)
 
 ![Uploading espiral_bo<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg" style="background:#ffffff;font-family:Arial,Helvetica,sans-serif">
 
