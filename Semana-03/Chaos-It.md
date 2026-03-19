@@ -9,7 +9,9 @@ Em cada volta da espiral, antes de qualquer compromisso de desenvolvimento, a eq
 ---
 
 ### Ciclo da Espiral (Projeto de IA Subaquática)
+
 ![espiral_ia_subaquatica](https://github.com/user-attachments/assets/94570b36-c03b-4832-b72a-d63f131f7d0f)
+
 ![Uploading <svg width="100%" viewBox="0 0 680 640" xmlns="http://www.w3.org/2000/svg">
 <defs>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
