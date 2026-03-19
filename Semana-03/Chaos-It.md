@@ -9,17 +9,20 @@ Em cada volta da espiral, antes de qualquer compromisso de desenvolvimento, a eq
 ---
 
 ### Ciclo da Espiral (Projeto de IA Subaquática)
+
 ```mermaid
 flowchart TD
-    A[Planejamento<br/>Definição de objetivos da iteração<br/>(ex: navegação subaquática)]
-    B[Análise de Riscos<br/>Identificação de riscos:<br/>falha de comunicação,<br/>latência, sensores]
-    C[Engenharia<br/>Desenvolvimento e testes<br/>(IA, sensores, protótipo)]
-    D[Avaliação<br/>Feedback dos stakeholders<br/>+ validação do protótipo]
+    A[Planejamento - Definição de objetivos da iteração (ex: navegação subaquática)]
+    B[Análise de Riscos - falha de comunicação, latência, sensores]
+    C[Engenharia - desenvolvimento e testes (IA, sensores, protótipo)]
+    D[Avaliação - feedback dos stakeholders e validação]
 
     A --> B
     B --> C
     C --> D
     D --> A
+```
+
 ---
 
 ## O diagnóstico CMMI
