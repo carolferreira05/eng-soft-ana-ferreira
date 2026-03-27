@@ -123,3 +123,5 @@ Evidências presentes na descrição: cada dev trabalha do seu jeito, prazos sã
 ## O que falta para chegar ao Nível 2 - Gerenciado?
 
 Para subir ao Nível 2, a Chaos-IT precisa instituir as Áreas de Processo exigidas, que incluem: gerenciamento de requisitos, planejamento de projetos, monitoramento e controle de projetos, gestão de configuração e garantia de qualidade de processo e produto. Ou seja, exige que os mesmos processos básicos sejam repetidos de projeto em projeto, com registro.
+
+*Professor: Obrigado pelo engajamento. Se sou ou não IA, recomento reler as atividades e respostas para lembrar do papel de cada modelo e ferramenta útil em engenharia de software. Aí estão **mais 4 softcoins**.* 
