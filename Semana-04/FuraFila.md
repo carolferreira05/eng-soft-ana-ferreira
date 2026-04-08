@@ -1,5 +1,4 @@
 ## 7 cenários no modelo 3W
----
 
 ### Cenário 1:
 **Who:** Aluno\
