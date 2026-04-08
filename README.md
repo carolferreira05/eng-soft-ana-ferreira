@@ -22,5 +22,7 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 * 📄 [Semana 04 - Métodos Ágeis](./Semana-04)
 * 📄 [Semana 05 - Método card](./Semana-05)
 * 📄 [Semana 06 - Engenharia de Requisitos](./Semana-05)
+
+---
   
 *Professor: Você recebeu 4 softcoins pelo trabalho!*
